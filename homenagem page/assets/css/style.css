@@ -1,19 +1,21 @@
-.container {
+body{
+    background-color: #fff;
+}
+header {
     background-color: #FFF;
-    margin: 0;
+}
+.container{
+    background-image: linear-gradient(to bottom right, purple, green );
 }
 .icon {
+    background-color: #FFF;
     border-bottom: 5px solid #000;
 }
 .icon img {
     width: 75px;
-    padding: 15px;
+    padding: 3px;
     margin-left: 20px;
     justify-content: center;
-}
-.content{
-    margin: 0;
-    background-image: linear-gradient(to bottom right, purple, green );
 }
 .title {
     color: #FFF;
@@ -40,6 +42,7 @@
     text-align: center;
 	justify-content: center;
     font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
 }
 .heath1 {
     background-color: #FFF;
@@ -92,3 +95,73 @@
 .h2 {
     padding-top: 20px;
 }
+footer {
+    background-color: #FFF;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 5px solid #000;
+
+}
+.copy_1 {
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+.final-content {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+.final-content h1 {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+.final-content p {
+    font-size: 18px;
+	justify-content: left;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    text-shadow: 1px 1px 3px black;
+    padding: 10px;
+    text-align: justify;
+
+}
+.final-content img {
+	margin-top: 15px;
+    width: 250px;
+}
+.final-content2 img {
+    margin-left: 5px;
+    width: 150px;
+}
+.final-content2 h1 {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+.final-content2 p {
+    font-size: 18px;
+	justify-content: right;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    text-shadow: 1px 1px 3px black;
+    padding: 10px;
+    text-align: justify;
