@@ -1,0 +1,94 @@
+.container {
+    background-color: #FFF;
+    margin: 0;
+}
+.icon {
+    border-bottom: 5px solid #000;
+}
+.icon img {
+    width: 75px;
+    padding: 15px;
+    margin-left: 20px;
+    justify-content: center;
+}
+.content{
+    margin: 0;
+    background-image: linear-gradient(to bottom right, purple, green );
+}
+.title {
+    color: #FFF;
+}
+.title h1 {
+    padding: 15px;
+    font-family: Helvetica, sans-serif
+    display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 50px;   
+    text-shadow: 2px 2px 3px black;
+
+}
+.title h2 {
+    font-size: 18px;
+    text-align: center;
+	justify-content: center;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px black;
+}
+.title p {
+    font-size: 18px;
+    text-align: center;
+	justify-content: center;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+.heath1 {
+    background-color: #FFF;
+    border: 2px solid #000;
+    box-shadow: 7px 7px 3px black; ;
+    border-radius: 10px;
+    width: 530px;
+}
+.heath1 img {
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+}
+.legenda-img {
+    font-size: 15px;
+	text-align: center;
+	padding-bottom: 5px;
+    font-family: arial;
+    margin-bottom: 10px;
+}
+.vida_heath h1{
+    margin-top: 60px;
+    color: #FFF;
+    font-size: 35px;
+    text-align: center;
+	justify-content: center;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px black;
+    padding-bottom: 35px;
+}
+.vida_heath p { 
+    font-size: 18px;
+    text-align: center;
+	justify-content: center;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    text-shadow: 1px 1px 3px black;
+    padding: 10px;
+    text-align: justify;
+}
+.vida_heath h2{
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+.h2 {
+    padding-top: 20px;
+}
